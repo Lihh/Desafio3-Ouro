@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pergunta" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzq-TB-VcC">
+                                <rect key="frame" x="264" y="36" width="70" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="????" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qn4-En-97L">
+                                <rect key="frame" x="279" y="147" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNI-lA-Ucs">
+                                <rect key="frame" x="238" y="188" width="123" height="30"/>
+                                <state key="normal" title="Mostrar Resposta">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mostraResposta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iAb-Kh-jKi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GjT-zH-1cX">
+                                <rect key="frame" x="180" y="258" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lK6-mi-ih2">
+                                <rect key="frame" x="240" y="77" width="119" height="30"/>
+                                <state key="normal" title="Mostrar Pergunta">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mostraPergunta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Py4-9k-dT4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qn4-En-97L" firstAttribute="centerX" secondItem="GNI-lA-Ucs" secondAttribute="centerX" constant="0.5" id="5PS-yI-kDn"/>
+                            <constraint firstItem="jzq-TB-VcC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="6h1-4a-5Zr"/>
+                            <constraint firstItem="GjT-zH-1cX" firstAttribute="top" secondItem="GNI-lA-Ucs" secondAttribute="bottom" constant="40" id="9hN-Uj-KGx"/>
+                            <constraint firstItem="lK6-mi-ih2" firstAttribute="top" secondItem="jzq-TB-VcC" secondAttribute="bottom" constant="20" id="DeI-qK-ZP8"/>
+                            <constraint firstItem="lK6-mi-ih2" firstAttribute="centerX" secondItem="jzq-TB-VcC" secondAttribute="centerX" constant="0.5" id="Juy-32-4X6"/>
+                            <constraint firstItem="GjT-zH-1cX" firstAttribute="centerX" secondItem="GNI-lA-Ucs" secondAttribute="centerX" constant="0.5" id="Ruh-9o-11e"/>
+                            <constraint firstItem="lK6-mi-ih2" firstAttribute="centerX" secondItem="qn4-En-97L" secondAttribute="centerX" constant="-0.5" id="X7u-ey-OkX"/>
+                            <constraint firstAttribute="centerX" secondItem="jzq-TB-VcC" secondAttribute="centerX" constant="1" id="loX-tn-3Mc"/>
+                            <constraint firstItem="qn4-En-97L" firstAttribute="top" secondItem="lK6-mi-ih2" secondAttribute="bottom" constant="40" id="m7s-6D-o0X"/>
+                            <constraint firstItem="GNI-lA-Ucs" firstAttribute="top" secondItem="qn4-En-97L" secondAttribute="bottom" constant="20" id="pDg-ph-N4t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Imagem" destination="GjT-zH-1cX" id="Qro-v7-jNM"/>
+                        <outlet property="Pergunta" destination="jzq-TB-VcC" id="poo-JD-neM"/>
+                        <outlet property="Resposta" destination="qn4-En-97L" id="gqa-Fd-TEi"/>
+                        <outlet property="botaoPergunta" destination="lK6-mi-ih2" id="1OF-gT-Rui"/>
+                        <outlet property="botaoResposta" destination="GNI-lA-Ucs" id="iNl-g3-K4q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

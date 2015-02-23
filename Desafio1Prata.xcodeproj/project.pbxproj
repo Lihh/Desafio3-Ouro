@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C863C31A9B56D800B002CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C863C21A9B56D800B002CF /* main.m */; };
+		02C863C61A9B56D800B002CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C863C51A9B56D800B002CF /* AppDelegate.m */; };
+		02C863C91A9B56D800B002CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C863C81A9B56D800B002CF /* ViewController.m */; };
+		02C863CC1A9B56D800B002CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C863CA1A9B56D800B002CF /* Main.storyboard */; };
+		02C863CE1A9B56D800B002CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C863CD1A9B56D800B002CF /* Images.xcassets */; };
+		02C863D11A9B56D800B002CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C863CF1A9B56D800B002CF /* LaunchScreen.xib */; };
+		02C863DD1A9B56D900B002CF /* Desafio1PrataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C863DC1A9B56D900B002CF /* Desafio1PrataTests.m */; };
+		02C863E71A9B745C00B002CF /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02C863E61A9B745C00B002CF /* 14.jpg */; };
+		02C863ED1A9B774E00B002CF /* bc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02C863EC1A9B774E00B002CF /* bc.jpg */; };
+		02C863EF1A9B775500B002CF /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C863EE1A9B775500B002CF /* m.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C863D71A9B56D900B002CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C863B51A9B56D800B002CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C863BC1A9B56D800B002CF;
+			remoteInfo = Desafio1Prata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C863BD1A9B56D800B002CF /* Desafio1Prata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desafio1Prata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C863C11A9B56D800B002CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C863C21A9B56D800B002CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02C863C41A9B56D800B002CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02C863C51A9B56D800B002CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02C863C71A9B56D800B002CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02C863C81A9B56D800B002CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02C863CB1A9B56D800B002CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C863CD1A9B56D800B002CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02C863D01A9B56D800B002CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		02C863D61A9B56D900B002CF /* Desafio1PrataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Desafio1PrataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C863DB1A9B56D900B002CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C863DC1A9B56D900B002CF /* Desafio1PrataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Desafio1PrataTests.m; sourceTree = "<group>"; };
+		02C863E61A9B745C00B002CF /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		02C863EC1A9B774E00B002CF /* bc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bc.jpg; sourceTree = "<group>"; };
+		02C863EE1A9B775500B002CF /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C863BA1A9B56D800B002CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C863D31A9B56D900B002CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C863B41A9B56D800B002CF = {
+			isa = PBXGroup;
+			children = (
+				02C863BF1A9B56D800B002CF /* Desafio1Prata */,
+				02C863D91A9B56D900B002CF /* Desafio1PrataTests */,
+				02C863BE1A9B56D800B002CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C863BE1A9B56D800B002CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C863BD1A9B56D800B002CF /* Desafio1Prata.app */,
+				02C863D61A9B56D900B002CF /* Desafio1PrataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C863BF1A9B56D800B002CF /* Desafio1Prata */ = {
+			isa = PBXGroup;
+			children = (
+				02C863E61A9B745C00B002CF /* 14.jpg */,
+				02C863EC1A9B774E00B002CF /* bc.jpg */,
+				02C863EE1A9B775500B002CF /* m.png */,
+				02C863C41A9B56D800B002CF /* AppDelegate.h */,
+				02C863C51A9B56D800B002CF /* AppDelegate.m */,
+				02C863C71A9B56D800B002CF /* ViewController.h */,
+				02C863C81A9B56D800B002CF /* ViewController.m */,
+				02C863CA1A9B56D800B002CF /* Main.storyboard */,
+				02C863CD1A9B56D800B002CF /* Images.xcassets */,
+				02C863CF1A9B56D800B002CF /* LaunchScreen.xib */,
+				02C863C01A9B56D800B002CF /* Supporting Files */,
+			);
+			path = Desafio1Prata;
+			sourceTree = "<group>";
+		};
+		02C863C01A9B56D800B002CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02C863C11A9B56D800B002CF /* Info.plist */,
+				02C863C21A9B56D800B002CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02C863D91A9B56D900B002CF /* Desafio1PrataTests */ = {
+			isa = PBXGroup;
+			children = (
+				02C863DC1A9B56D900B002CF /* Desafio1PrataTests.m */,
+				02C863DA1A9B56D900B002CF /* Supporting Files */,
+			);
+			path = Desafio1PrataTests;
+			sourceTree = "<group>";
+		};
+		02C863DA1A9B56D900B002CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02C863DB1A9B56D900B002CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C863BC1A9B56D800B002CF /* Desafio1Prata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C863E01A9B56D900B002CF /* Build configuration list for PBXNativeTarget "Desafio1Prata" */;
+			buildPhases = (
+				02C863B91A9B56D800B002CF /* Sources */,
+				02C863BA1A9B56D800B002CF /* Frameworks */,
+				02C863BB1A9B56D800B002CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Desafio1Prata;
+			productName = Desafio1Prata;
+			productReference = 02C863BD1A9B56D800B002CF /* Desafio1Prata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02C863D51A9B56D900B002CF /* Desafio1PrataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C863E31A9B56D900B002CF /* Build configuration list for PBXNativeTarget "Desafio1PrataTests" */;
+			buildPhases = (
+				02C863D21A9B56D900B002CF /* Sources */,
+				02C863D31A9B56D900B002CF /* Frameworks */,
+				02C863D41A9B56D900B002CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C863D81A9B56D900B002CF /* PBXTargetDependency */,
+			);
+			name = Desafio1PrataTests;
+			productName = Desafio1PrataTests;
+			productReference = 02C863D61A9B56D900B002CF /* Desafio1PrataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C863B51A9B56D800B002CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lidia Chou";
+				TargetAttributes = {
+					02C863BC1A9B56D800B002CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					02C863D51A9B56D900B002CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 02C863BC1A9B56D800B002CF;
+					};
+				};
+			};
+			buildConfigurationList = 02C863B81A9B56D800B002CF /* Build configuration list for PBXProject "Desafio1Prata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C863B41A9B56D800B002CF;
+			productRefGroup = 02C863BE1A9B56D800B002CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C863BC1A9B56D800B002CF /* Desafio1Prata */,
+				02C863D51A9B56D900B002CF /* Desafio1PrataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C863BB1A9B56D800B002CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C863ED1A9B774E00B002CF /* bc.jpg in Resources */,
+				02C863CC1A9B56D800B002CF /* Main.storyboard in Resources */,
+				02C863D11A9B56D800B002CF /* LaunchScreen.xib in Resources */,
+				02C863EF1A9B775500B002CF /* m.png in Resources */,
+				02C863E71A9B745C00B002CF /* 14.jpg in Resources */,
+				02C863CE1A9B56D800B002CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C863D41A9B56D900B002CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C863B91A9B56D800B002CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C863C91A9B56D800B002CF /* ViewController.m in Sources */,
+				02C863C61A9B56D800B002CF /* AppDelegate.m in Sources */,
+				02C863C31A9B56D800B002CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C863D21A9B56D900B002CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C863DD1A9B56D900B002CF /* Desafio1PrataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C863D81A9B56D900B002CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C863BC1A9B56D800B002CF /* Desafio1Prata */;
+			targetProxy = 02C863D71A9B56D900B002CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02C863CA1A9B56D800B002CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C863CB1A9B56D800B002CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C863CF1A9B56D800B002CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C863D01A9B56D800B002CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C863DE1A9B56D900B002CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C863DF1A9B56D900B002CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C863E11A9B56D900B002CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Desafio1Prata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02C863E21A9B56D900B002CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Desafio1Prata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02C863E41A9B56D900B002CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Desafio1PrataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio1Prata.app/Desafio1Prata";
+			};
+			name = Debug;
+		};
+		02C863E51A9B56D900B002CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Desafio1PrataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio1Prata.app/Desafio1Prata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C863B81A9B56D800B002CF /* Build configuration list for PBXProject "Desafio1Prata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C863DE1A9B56D900B002CF /* Debug */,
+				02C863DF1A9B56D900B002CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C863E01A9B56D900B002CF /* Build configuration list for PBXNativeTarget "Desafio1Prata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C863E11A9B56D900B002CF /* Debug */,
+				02C863E21A9B56D900B002CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02C863E31A9B56D900B002CF /* Build configuration list for PBXNativeTarget "Desafio1PrataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C863E41A9B56D900B002CF /* Debug */,
+				02C863E51A9B56D900B002CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C863B51A9B56D800B002CF /* Project object */;
+}
