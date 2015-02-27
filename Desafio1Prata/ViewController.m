@@ -40,6 +40,7 @@
                   @"Vermelho"];
     
     index = 0;
+    shake = true;
     
     self.Pergunta.textColor = [UIColor whiteColor];
     self.Resposta.textColor = [UIColor whiteColor];
@@ -56,16 +57,13 @@
 
 #pragma mark AcoesBotoes
 
-
-- (IBAction)mostraPergunta:(id)sender {
+-(void) mudaPergunta{
     [Pergunta setText: [perguntas objectAtIndex: index]];
     [Resposta setText: @"????"];
     [_Imagem setImage: nil];
-    
-    
 }
 
-- (IBAction)mostraResposta:(id)sender {
+-(void) mudaResposta{
     [Resposta setText: [respostas objectAtIndex: index]];
     [_Imagem setImage: [imagens objectAtIndex: index]];
     if (index <2)
@@ -73,4 +71,28 @@
     else
         index = 0;
 }
+
+
+- (IBAction)mostraPergunta:(id)sender {
+    [self mudaPergunta];
+}
+
+- (IBAction)mostraResposta:(id)sender {
+    [self mudaResposta];
+}
+
+
+-(void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event{
+    if (shake == true){
+        [self mudaPergunta];
+        shake = false;
+    } else {
+        [self mudaResposta];
+        shake = true;
+    }
+}
+
+
+
+
 @end

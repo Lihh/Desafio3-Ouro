@@ -13,6 +13,7 @@
     NSArray *respostas;
     NSArray *imagens;
     int index;
+    BOOL shake;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *Pergunta;
